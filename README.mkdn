@@ -1,6 +1,6 @@
-LiquidSmooth
+Android Developer Alliance
 ===========
-To get started with LiquidSmoothROMs, you'll need to get
+To get started with Android Developer Alliance Roms, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 Register an account on our Gerrit
@@ -23,7 +23,7 @@ and copy your sshkey with:
     
 copy what is shown to your clipboard
 
-Go to our [Gerrit Review Site](http://review.liquidsmooth.org)
+Go to our [Gerrit Review Site](http://review.androiddeveloperalliance.org)
 
 Upper right hand corner hit 'register'
 Select with google/yahoo account and signin
@@ -75,7 +75,7 @@ To create them run:
 
     mkdir -p ~/bin 
 
-    mkdir -p ~/liquid
+    mkdir -p ~/ada
 
 
 Install the Repository
@@ -92,16 +92,16 @@ You may need to reboot for these changes to take effect.
 
 Now enter the following to initialize the repository:
 
-    cd ~/liquid
+    cd ~/ada
 
 Repositories:
 ---------------
 
 Before you continue --> run this in the terminal
 
-	git config --global review.review.liquidsmooth.org.username <gerrit username>
+	git config --global review.review.androiddeveloperalliance.org.username <gerrit username>
 
-    repo init -u git://github.com/LiquidSmoothROMs/android.git -b jb
+    repo init -u git://github.com/AndroidDeveloperAlliance/manifest.git -b jb
 
     repo sync
 
@@ -124,12 +124,12 @@ Enter the number of the build you want to start and press enter
 Build the Code:
 
 
-    make otaupdate
+    make otapackage
 
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via LiquidSmooth Gerrit!
+Patches are always welcome!  Please submit your patches via AndroidDeveloperAlliance Gerrit!
 You can do this by using these commands:
 
     (From root android directory)
@@ -142,7 +142,7 @@ You can do this by using these commands:
 Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-To view the status of your and others' patches, visit [LiquidSmooth Code Review](http://review.liquidsmooth.org/)
+To view the status of your and others' patches, visit [AndroidDeveloperAlliance Code Review](http://review.androiddeveloperalliance.org/)
 
 
-If you have any issues please contact blueharford through rootzwiki.com PM or liquid0624 and #liquids irc on freenode
+If you have any issues please contact blueharford through rootzwiki.com PM or #AndroidDeveloperAlliance irc on freenode
