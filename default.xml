@@ -231,7 +231,6 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="github" revision="jb" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/VoiceDialer" name="platform_packages_apps_VoiceDialer" remote="github" revision="jb" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_input_LatinIME" remote="github" revision="jb" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -283,4 +282,9 @@
   <project path="vendor/asus" name="vendor_asus" remote="github" revision="jb" />
   <project path="vendor/ada" name="vendor_ada" remote="github" revision="jb" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jb" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="jellybean" />
 </manifest>
