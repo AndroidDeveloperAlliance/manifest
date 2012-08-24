@@ -30,6 +30,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="github" revision="jb" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="github" revision="jb" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="github" revision="jb" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="github" revision="jb" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="github" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="github" revision="jb" />
