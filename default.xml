@@ -7,6 +7,9 @@
   <remote  name="github"
            fetch="git://github.com/AndroidDeveloperAlliance/"
            review="review.androiddeveloperalliance.org" />
+
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/" />
 		   
   <default revision="jb-dev"
            remote="aosp"
@@ -35,6 +38,15 @@
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="github" revision="jb" />
   <project path="device/motorola/spyder" name="device_motorola_spyder" remote="github" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="github" revision="jb" />
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" />
+  <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="jb-release" />
+  <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
+  <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
+  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="jb-release" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" remote="omapzoom" revision="master"/>
+  <project path="hardware/ti/domx" name="platform/hardware/ti/domx" remote="omapzoom" revision="jb-release" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
+  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="jb-release" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
