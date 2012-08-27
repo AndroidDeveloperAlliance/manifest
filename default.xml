@@ -33,6 +33,7 @@
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="github" revision="jb" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="github" revision="jb" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="github" revision="jb" />
+  <project path="device/motorola/spyder" name="device_motorola_spyder" remote="github" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="github" revision="jb" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -288,6 +289,8 @@
   <project path="vendor/asus" name="vendor_asus" remote="github" revision="jb" />
   <project path="vendor/ada" name="vendor_ada" remote="github" revision="jb" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jb" />
+  <project path="vendor/motorola/common" name="vendor_motorola_common" remote="github" revision="jb" />
+  <project path="vendor/motorola/spyder" name="vendor_motorola_spyder" remote="github" revision="jb" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jellybean" />
