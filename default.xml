@@ -31,6 +31,7 @@
   <project path="device/asus/tf700t" name="device_asus_tf700t" remote="github" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/d710" name="device_samsung_d710" remote="github" revision="jb" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="github" revision="jb" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="github" revision="jb" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="github" revision="jb" />
