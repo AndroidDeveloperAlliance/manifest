@@ -308,6 +308,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="github" revision="jb" />
   <project path="vendor/ada" name="vendor_ada" remote="github" revision="jb" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jb" />
+  <project path="vendor/qcom/proprietary" name="vendor_qcom" remote="github" revision="jb" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jellybean" />
