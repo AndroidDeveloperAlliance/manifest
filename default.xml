@@ -225,6 +225,10 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="github" revision="jb" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="github" revision="jb" />
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="github" revision="jb" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="github" revision="jb" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="github" revision="jb" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="github" revision="jb" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="github" revision="jb" />
   <project path="hardware/samsung" name="platform_hardware_samsung" remote="github" revision="jb" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
