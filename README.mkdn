@@ -39,9 +39,58 @@ Installing the JDK
 The Sun JDK is no longer in Ubuntu's main package repository. In order to download it, you need to add the appropriate repository and indicate to the system which JDK should be used.
 
 
-    sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
-    sudo apt-get update
-    sudo apt-get install sun-java6-jdk
+Installing Java 6/7 jre and jdk using oad-java.sh
+
+How do I download and run this thing?
+-------------------------------------
+Like this.
+::
+
+  cd ~/
+  wget https://github.com/flexiondotorg/oab-java6/raw/0.2.6/oab-java.sh -O oab-java.sh
+  chmod +x oab-java.sh
+To install the Java 6 jre/jdk
+  sudo ./oab-java.sh
+To install the Java 7 jre/jdk
+  sudo ./oab-java.sh -7
+
+If you are behind a proxy you may need to run using:
+::
+
+ sudo ./oab-java.sh
+or
+ sudo ./oab-java.sh -7
+
+If you want to see what this script is doing while it is running then execute
+the following from another shell:
+::
+
+  tail -f ./oab-java.sh.log
+
+How it works
+------------
+This script is merely a wrapper for the most excellent Debian packaging
+scripts prepared by Janusz Dziemidowicz.
+
+* https://github.com/rraptorr/sun-java6
+* https://github.com/rraptorr/oracle-java7
+
+sudo apt-get install sun-java6-jre
+sudo apt-get install sun-java6-jdk
+
+Or if you ran the script with the -7 option.
+::
+
+  sudo apt-get install oracle-java7-jre
+  sudo apt-get install oracle-java7-jdk
+
+If you already have the *"official"* Ubuntu packages installed then you
+can upgrade by executing the following from a shell.
+::
+
+  sudo apt-get upgrade
+
+
     
     
 Installing required packages
@@ -83,9 +132,22 @@ Install the Repository
 
 Enter the following to download make executable the "repo" binary:
 
-    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 
-    chmod a+x ~/bin/repo
+curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+
+chmod a+x ~/bin/repo
+
+Now open up your bashrc (nano ~/.bashrc) and add the following to the end:
+
+PATH=~/bin:$PATH
+
+Save the file and source it:
+
+source ~/.bashrc
+
+cd ~/bin
+
+repo init
 
 You may need to reboot for these changes to take effect. 
 
